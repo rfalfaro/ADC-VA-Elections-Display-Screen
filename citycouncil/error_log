@@ -1,0 +1,18 @@
+[07-Nov-2018 01:04:41 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/chqaplmy/public_html/basefloor/results/citycouncil/results.php:24
+Stack trace:
+#0 [internal function]: sortByOrder(Object(stdClass), Object(stdClass))
+#1 /home4/chqaplmy/public_html/basefloor/results/citycouncil/results.php(27): usort(Array, 'sortByOrder')
+#2 {main}
+  thrown in /home4/chqaplmy/public_html/basefloor/results/citycouncil/results.php on line 24
+[07-Nov-2018 01:04:43 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/chqaplmy/public_html/basefloor/results/citycouncil/results.php:24
+Stack trace:
+#0 [internal function]: sortByOrder(Object(stdClass), Object(stdClass))
+#1 /home4/chqaplmy/public_html/basefloor/results/citycouncil/results.php(27): usort(Array, 'sortByOrder')
+#2 {main}
+  thrown in /home4/chqaplmy/public_html/basefloor/results/citycouncil/results.php on line 24
+[07-Nov-2018 01:04:46 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home4/chqaplmy/public_html/basefloor/results/citycouncil/results.php:24
+Stack trace:
+#0 [internal function]: sortByOrder(Object(stdClass), Object(stdClass))
+#1 /home4/chqaplmy/public_html/basefloor/results/citycouncil/results.php(27): usort(Array, 'sortByOrder')
+#2 {main}
+  thrown in /home4/chqaplmy/public_html/basefloor/results/citycouncil/results.php on line 24
