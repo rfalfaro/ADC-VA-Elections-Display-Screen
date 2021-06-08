@@ -29,7 +29,7 @@ usort($city_council_candidades, 'sortByOrder');
 	</div>
 	<div class="container">
 		<?php for($i = 0; $i < $number_of_seats; $i++) { ?>
-		<?php //for($i = 2; $i < $number_of_seats+2; $i++) { ?>
+		<?php //for($i = 2; $i < $number_of_seats+2; $i++) { // use if you want to specify number of candidates shown ?>
 		<div class="row result_row">
 			<div class="col-md-8">
 				<h1><?php print_r($city_council_candidades[$i]->BallotName); ?></h1>
@@ -46,5 +46,3 @@ usort($city_council_candidades, 'sortByOrder');
 	<div align="center">
 		<h4>Source: Virginia State Board of Elections | Last Updated: <?php echo $last_update->format('Y-m-d g:m:s a'); ?></h4>
 	</div>
-	
-	<div align="center">Showing first six spots based on votes regardless of political party</div>
